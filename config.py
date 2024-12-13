@@ -17,7 +17,7 @@ APP_ID = 16707564
 API_HASH = "0d96229e8fa200de84c6776641ba8404"
 
 #Your db channel Id
-CHANNEL_ID = int("-1002242801589")
+CHANNEL_ID = -1002242801589
 
 #OWNER ID
 OWNER_ID = int("7647409655")
@@ -30,7 +30,7 @@ DB_URI = "mongodb+srv://filmpisso:CHi2S4KHswk0akfS@cluster0.erh62.mongodb.net/"
 DB_NAME = os.environ.get("filmpisso", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int("-1002088006907")
+FORCE_SUB_CHANNEL = -1002088006907
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
