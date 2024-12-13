@@ -38,7 +38,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "හෙලෝ !👋 {first}\n\n<b>Telegram හරහා 🎬 Movies සහ TV Shows 📺 Download කරගැනීමට හැක.</b>\n\n 🎬 𝐌𝐨𝐯𝐢𝐞𝐬 & 𝐓𝐕 𝐒𝐡𝐨𝐰𝐬 📺 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐚𝐧𝐝 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 𝐢𝐧 #𝐒𝐫𝐢𝐋𝐚𝐧𝐤𝐚 🔥🇱🇰 \n\n<b>𝐕𝐢𝐬𝐢𝐭 📽 𝐅𝐈𝐋𝐌 𝐏𝐈𝐒𝐒𝐎ᶜᵒᵐ 📽</b> - https://www.filmpisso.com")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
