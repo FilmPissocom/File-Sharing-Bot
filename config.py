@@ -3,16 +3,16 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot Token from @BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7003297491:AAGU-VF7KYGmu9LGyAC31r8UVhW1XEgXUwo")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7742850582:AAGO1HhnxVGPYZxybZkNiA47XCVzax8KUSY")
 
 # Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "16707564"))
+API_ID = int(os.environ.get("API_ID", "26834328"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "0d96229e8fa200de84c6776641ba8404")
+API_HASH = os.environ.get("API_HASH", "ddc4bd4e60c6d007e9c0428916b64f92")
 
 # Owner ID (Your Telegram User ID)
-OWNER_ID = int(os.environ.get("OWNER_ID", "7647409655"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6199575037"))
 
 # Database URL (MongoDB Connection String)
 DB_URL = os.environ.get(
@@ -24,7 +24,7 @@ DB_URL = os.environ.get(
 DB_NAME = os.environ.get("DB_NAME", "FilmPisso")
 
 # Your channel ID for storing files
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002242801589"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002378478916"))
 
 # Force Subscription Channel ID
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002088006907"))
@@ -40,8 +40,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Admins List
 try:
-    ADMINS = [6199575037]  # Default admin IDs
-    for x in os.environ.get("ADMINS", "").split():
+    ADMINS = [8004139936]  # Default admin IDs
+    for x in os.environ.get("ADMINS", "8004139936").split():
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
