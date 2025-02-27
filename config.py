@@ -30,7 +30,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002378478916"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002088006907"))
 
 # Auto-delete time in seconds
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "0"))
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "604800"))
 
 # Port for the bot server
 PORT = os.environ.get("PORT", "8080")
