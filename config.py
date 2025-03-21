@@ -27,7 +27,7 @@ DB_NAME = os.environ.get("DB_NAME", "FilmPisso")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002378478916"))
 
 # Force Subscription Channel ID
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002088006907"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002131232816"))
 
 # Auto-delete time in seconds
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "2592000"))
